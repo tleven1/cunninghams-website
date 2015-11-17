@@ -1,0 +1,470 @@
+html,
+body {
+	height: 100%;
+}
+
+
+.hero {
+	position: relative;
+	height: 90%;
+}
+
+.hero .flexslider {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+
+
+.hero .hero-content {
+	position: relative;
+	z-index: 2;
+}
+
+
+.hero-nav {
+	background: turquoise;
+}
+
+
+.nav {
+  list-style: none;
+}
+
+
+.nav-item + .nav-item {
+  margin-top: 3px;
+}
+
+.nav-link {
+   display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: #fff;
+  background: blue;
+}
+
+
+.nav-content {
+  max-height: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all .3s ease-out;
+}
+
+.nav-content.active {
+  height: auto;
+  max-height: 1000px;
+}
+
+
+@media (min-width: 700px) {
+
+  .nav {
+    display: block; 
+    width: 100%;
+    margin: 0;
+    background: yellow;
+    overflow: hidden;
+  }
+  .nav-item {
+    display: inline-block;
+    float: left;
+    width: 33%;
+  }
+  
+  .nav-item + .nav-item {
+    margin: 0;
+  }
+  
+  .nav-link {
+
+  }
+  
+  .nav-content {
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  
+  .nav-text {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+
+body {
+    background: black;
+    
+}
+
+
+.address1{ 
+	color: white;
+	font: Fira Sans Book;
+	font-size: 9x;
+	text-align: center;
+	}
+.phonenumber{
+	color: white;
+	font: Fira Sans Book;
+	font-size: 9x; 
+	text-align: center;
+	}
+.about-about {
+	background:turquoise;
+}
+
+.about-items {
+	margin-left:0;
+	list-style: none;	
+	background: white;
+	float: left;
+	width: 200px
+
+}
+.source-item-desc {
+	font-size: 12px	
+	font: Fira Sans;
+}
+
+.source-item-pairing {
+	font-size: 10px
+	font: Fira Sans;
+	font-weight: bold;
+	color: #42a8a8;
+}
+.source-item-pairing-type {
+	font-style: normal;
+	font: Fira Sans;
+	text-transform: uppercase;
+	text-transform: .1em;
+}
+
+
+.menu-kitchen {
+	background:turquoise;
+}
+
+.menu-items {
+	margin-left:0;
+	list-style: none;	
+	background: white;
+}
+
+.menu-item {
+
+}
+
+.menu-item + .menu-item {
+	margin-top: 15px;
+	
+}
+
+	
+.menu-item-title {
+	font-size:16px;
+	font-weight:bold;
+	font: fira sans;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #000;
+	font: Fira Sans Book;
+}
+
+.menu-item-desc,
+.menu-item-pairing {
+	margin: 0;
+	font-style: itlaic;
+	font: fira sans;
+	text-transform: lowercase;
+	font: Firas Sans Book; 
+}
+.menu-item-desc {
+	font-size: 12px	
+	font: fira sans;
+}
+
+.menu-item-pairing {
+	font-size: 10px
+	font-weight: bold;
+	font: fira sans;
+	color: #42a8a8;
+}
+.menu-item-pairing-type {
+	font-style: normal;
+	font: fira sans;
+	text-transform: uppercase;
+	text-transform: .1em;
+}
+
+}
+.menu-item-desc-1 {
+	font-size: 12px	
+}
+
+.menu-item-pairing-1 {
+	font-size: 10px
+	font-weight: bold;
+	font: fira sans;
+	color: #42a8a8;
+}
+.menu-item-pairing-type-1 {
+	font-style: normal;
+	font: fira sans;
+	text-transform: uppercase;
+	text-transform: .1em;
+}
+
+.menu-item-desc-2 {
+	font-size: 12px	
+	font: fira sans;
+}
+
+.menu-item-pairing-2 {
+	font-size: 10px
+	font: fira sans;
+	font-weight: bold;
+	color: #42a8a8;
+}
+.menu-item-pairing-type-2 {
+	font-style: normal;
+	font: fira sans;
+	text-transform: uppercase;
+	text-transform: .1em;
+}
+
+.menu-item-desc-3 {
+	font-size: 12px	
+	font: fira sans;
+}
+
+.menu-item-pairing-3 {
+	font-size: 10px
+	font-weight: bold;
+	font: fira sans;
+	color: #42a8a8;
+}
+.menu-item-pairing-type-3 {
+	font-style: normal;
+	font: fira sans;
+	text-transform: uppercase;
+	text-transform: .1em;
+}
+.menu-section{
+	background: white;
+	}
+.menu-item-title-1 {
+	font-size:16px;
+	font: fira sans;
+	font-weight:bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #000;
+}
+
+.menu-section-title-2 {
+	font-size:16px;
+	font-weight:bold;
+	font: fira sans;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #000;
+}
+
+.sources-sources {
+	background:turquoise;
+	font: Fira Sans;
+}
+.source-items {
+	margin-left:0;
+	list-style: none;	
+	background: white;
+
+
+}
+.source-item-desc {
+	font-size: 12px	
+	font: fira sans;
+}
+
+.source-item-pairing {
+	font-size: 10px
+	font-weight: bold;
+	font: fira sans;
+	color: #42a8a8;
+}
+.source-item-pairing-type {
+	font-style: normal;
+	text-transform: uppercase;
+	text-transform: .1em;
+}
+.event-item-desc{
+	color: white; 
+	}
+.event-section-title {
+	color: white;
+}
+
+}
+.Events-Events {
+	background:turquoise;
+	color: white;
+}
+.events-items {
+	margin-left:0;
+	list-style: none;	
+	background: white;
+
+
+}
+.event-item-desc {
+	font-size: 12px	
+	color: white;
+}
+
+.event-item-pairing {
+	font-size: 10px
+	font-weight: bold;
+	color: #42a8a8;
+	font: Fira Sans;
+
+}
+.event-item-pairing-type {
+	font-style: normal;
+	text-transform: uppercase;
+	text-transform: .1em;
+	color: white;
+}
+img, 
+video,
+iframe {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.container {
+	width: 90%;
+	max-width: 760px;
+	margin: 0 auto;
+
+}	
+
+.clear {
+	overflow: hidden; 
+} 
+
+
+masthead layout
+this shows at the top of the page and includes the navigation.
+
+
+.masthead {
+	background: black;
+}
+
+.nav {
+	padding:  0; 
+	list-style: none;
+} 
+
+.nav li{
+	display: block;
+}
+
+
+.nav a {
+	display: block;
+	position: relative;
+	padding: 1em;
+	background: turquoise;
+	transition: all 1s ease-out;
+}
+
+
+.nav a:hover {
+	color: white;
+	background: black;
+	transition-duration: .3s;
+}
+
+.nav a:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 0%;
+	height: 100%;
+	background: grey;
+	transition: all .3s ease-in;
+}
+
+.nav a:hover:after{
+	width: 100%
+	}
+.nav.center{
+	text-align: center;
+}
+
+@media (min-width:  500px) {
+	.nav.fit{
+		display: table;
+		width:100%;
+	}
+
+	.nav.fit li{
+		display:table-cell;
+	}
+	
+	.nav.fit a{
+		display:block;
+	}
+
+}
+
+.main-content{
+	background: pink;
+}
+
+.sub-content{	
+	background: orange;
+}
+	
+@media (min-width: 500px) {
+	.main-content {
+	float: left;
+	width: 60%;
+	margin-left: 20%;
+
+	}
+	
+	.sub-content{
+	float: left;
+	width: 20%;
+	margin-left: -80%;
+	}
+	
+	.third-content {
+	float: left;
+	width: 20%;
+}	
+	
+}	
+	
+	
+	
+	
+.bar  {
+
+}
+
+#primary-nav {
+
+}
